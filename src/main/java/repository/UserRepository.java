@@ -18,7 +18,7 @@ public class UserRepository {
              Statement statement = connection.createStatement()) {
             statement.execute("CREATE TABLE user_table(id INTEGER PRIMARY KEY, login VARCHAR (50) NOT NULL, password VARCHAR (50) NOT NULL)");
             statement.execute("CREATE TABLE profile_table(id INTEGER PRIMARY KEY, firstname VARCHAR (50) NOT NULL, lastname VARCHAR (50) NOT NULL, status VARCHAR (10) NOT NULL)");
-            statement.execute("CREATE OR REPLACE FUNCTION")
+            statement.execute("CREATE OR REPLACE FUNCTION");
 
         }
     }
